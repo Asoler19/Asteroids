@@ -5,7 +5,7 @@ module.exports = {
   entry: './js/main.js',
   output: {
     filename: 'prod.js',
-    path: path.resolve(__dirname, 'dist')
+    path: path.resolve(__dirname, 'js')
   },
   plugins: [
     new UglifyJsPlugin()

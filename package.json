@@ -1,7 +1,14 @@
 {
   "name": "Asteroids",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "main.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browserify": "^14.3.0",
+    "webpack": "^3.11.0",
+    "uglifyjs-webpack-plugin": "^1.1.8",
+    "webpack-dev-server": "^2.9.4"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
@@ -18,12 +25,5 @@
     "url": "https://github.com/Asoler19/Asteroids/issues"
   },
   "homepage": "https://github.com/Asoler19/Asteroids#readme",
-  "devDependencies": {
-    "browserify": "^14.3.0",
-    "webpack": "^3.11.0",
-    "uglifyjs-webpack-plugin": "^1.1.8",
-    "webpack-dev-server": "^2.9.4"
-  },
-  "dependencies": {},
   "description": ""
 }
